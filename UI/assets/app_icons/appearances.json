@@ -1,0 +1,5 @@
+{
+  "default": "Light.png",
+  "dark": "Dark.png",
+  "native_compilation": "Requires full Xcode / Icon Composer"
+}

@@ -1,0 +1,7 @@
+PySide6>=6.6.0
+groq>=0.11.0
+PyMuPDF>=1.23.0
+requests>=2.31.0
+Pillow>=10.0.0
+paddleocr>=2.7.0
+python-dotenv>=1.0.0

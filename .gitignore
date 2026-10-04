@@ -1,0 +1,30 @@
+# Environments, caches and local tools
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.vscode/
+.env
+.env.*
+*.log
+
+# Build output
+build/
+build_pyinstaller/
+dist/
+*.dmg
+*.zip
+*.spec
+!Past Paper Studio Beta 1.0.spec
+
+# Personal runtime data
+Data/*cache*.json
+Data/*history*.json
+Data/past_paper_finder_config.json
+Data/custom_themes.json
+Data/unfinished_exam_attempts*.json
+Data/dev_test_attempt_assets/
+Data/logs/
+profile_avatar.*
