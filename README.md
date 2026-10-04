@@ -12,7 +12,7 @@ The current packaged build supports **Apple Silicon Macs running macOS 26 or lat
 A `.sha256` file accompanies the installer. Verify the checksum from the directory containing both files:
 
 ```sh
-shasum -a 256 -c 'Past Paper Studio Beta 1.0-arm64.dmg.sha256'
+shasum -a 256 -c 'Past.Paper.Studio.Beta.1.0-arm64.dmg.sha256'
 ```
 
 ## Features
