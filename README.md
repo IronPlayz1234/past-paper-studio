@@ -1,5 +1,7 @@
-# past-paper-studio
+# Past Paper Studio
 A free, open-source desktop app for finding, practicing, and managing Cambridge past papers — featuring Exam Mode, AI-assisted grading, progress tracking, themes, and more. Built for students, by a student.
+
+**A note on development:** I built Past Paper Studio with significant help from AI coding tools, mainly for implementation, debugging, testing, and packaging. The project itself has been something I've actively designed and developed over time — from the features and UI/UX to testing, iteration, and overall direction. I'm still learning programming, and using AI has helped me turn those ideas into something I can actually ship.
 
 ## Download Beta 1.0
 
@@ -24,6 +26,34 @@ shasum -a 256 -c 'Past.Paper.Studio.Beta.1.0-arm64.dmg.sha256'
 - Optional AI-assisted evaluation with your own configured credentials.
 
 AI evaluation is a study aid; check feedback against the official mark scheme. Interface translations do not translate examination documents. Network services and OCR model downloads may require internet access.
+
+## Screenshots
+
+Captured from Beta 1.0 with a fresh demo profile.
+
+### Dashboard
+
+The home screen before any study activity has been saved, using the OLED Dark theme.
+
+![Past Paper Studio Dashboard with the subject browser and a fresh student profile](docs/screenshots/dashboard.png)
+
+### Paper search
+
+Choose a subject, series, years, paper components and document types. This view shows the search controls before results are loaded.
+
+![Paper search with Chemistry selected and a 2022–2024 year range](docs/screenshots/paper-search.png)
+
+### Matcha Latte theme
+
+The same workspace with the Matcha Latte theme applied.
+
+![Past Paper Studio workspace in the green Matcha Latte theme](docs/screenshots/matcha-theme.png)
+
+### Appearance settings
+
+Browse themes and personalize the interface font.
+
+![Appearance settings with font controls and the theme gallery](docs/screenshots/appearance-settings.png)
 
 ## Run from source
 
